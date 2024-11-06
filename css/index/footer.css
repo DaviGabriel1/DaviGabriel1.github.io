@@ -1,0 +1,21 @@
+#rodape-home{
+    background-color: rgb(124, 47, 47);
+    color: white ;
+    height: auto;
+    padding: 1% 5% 1% 5%;
+    width: 100%;
+}
+.rodape-titulo{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+    margin-top: 45px;
+    font-size: 18px;
+}
+.rodape-texto{
+    font-size: 15px;
+}
+.rodape-info{
+    justify-self: end;
+    font-size: 12px;
+}

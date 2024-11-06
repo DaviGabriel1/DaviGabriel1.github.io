@@ -1,0 +1,58 @@
+main{
+    padding: 20px;
+    display: flex;
+}
+#foto{
+    width: 250px;
+    height: 250px;
+    border: 5px solid brown;
+    border-radius: 100%;
+    margin-bottom: 30px;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+#container-perfil{
+    width: 30vw;
+}
+#container-livros-alugados{
+    width: 70vw;
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+#lista-livros{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+button{
+    cursor: pointer;
+    background-color: brown;
+    color: white;
+    width: 200px;
+    height: 30px;
+    border: none;
+}
+#btn-sair{
+    margin-top: 10px;
+}
+.produto-layout{
+    display: flex;
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+    width: 1100px;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.produto{
+    width: 177px;
+    height: 233px;
+}

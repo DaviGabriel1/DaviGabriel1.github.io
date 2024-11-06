@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+:root{
+    --cor-primaria:rgb(255, 255, 255);
+    --cor-secundaria:rgb(124, 47, 47);
+    --cor-texto:rgb(0, 0, 0);
+    --cor-detalhes: rgb(109, 108, 108);
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+header{
+    padding: 3vh 0;
+    width: 100vw;
+    height: 20vh;
+    background-color: var(--cor-secundaria);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo{
+    margin-left: 20px;
+}
+#search{
+    height: 70px;
+    width: 60vw;
+    border-radius: 15px;
+    border: none;
+    font-size: 16px;
+    padding-left:60px;
+    outline: none;
+}
+#logo-pesquisa{
+    position: relative;
+    left: 55px;
+    top: 15px;
+}
+.icons{
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+svg{
+    margin-left: 20px;
+    cursor: pointer;
+}
+
