@@ -69,7 +69,7 @@ function carregarUsuarioAtual(){
 function sairConta(){
     salvarUsuario();
     localStorage.removeItem("usuarioAtual");
-    window.location.href = "../telas/index.html";
+    window.location.href = "../index.html";
 }
 
 function devolverLivros(){
