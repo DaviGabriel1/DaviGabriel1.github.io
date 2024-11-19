@@ -1,0 +1,39 @@
+form{
+    background-color: rgb(199, 199, 199);
+    width: 30em;
+    height: 15em;
+    margin:160px;
+    border-radius: 20px;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    width: 100%;
+}
+.form-content{
+    margin-bottom:40px;
+}
+
+button{
+    cursor: pointer;
+    height: 100%;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color:rgb(124, 47, 47);
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    border: none;
+    color: white;
+}
+
+button:hover{
+    transform: scale(1.05);
+}
